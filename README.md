@@ -1,8 +1,5 @@
 # react-textfitfix
 
-[![npm version](https://img.shields.io/npm/v/react-textfit.svg?style=flat-square)](https://www.npmjs.com/package/react-textfitfix)
-[![npm downloads](https://img.shields.io/npm/dm/react-textfit.svg?style=flat-square)](https://www.npmjs.com/package/react-textfitfix)
-
 This is a clone of the original repo, which is not maintained anymore and has compatibility problems with the latest version of React. I also included the type declarations in case you use TS.
 
 - fit **headlines and paragraphs** into any element
