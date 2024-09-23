@@ -1,6 +1,6 @@
 {
   "name": "react-textfitfix",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Fixed version of react-textfit to work with the latest react versions",
   "main": "lib/index.js",
   "scripts": {
