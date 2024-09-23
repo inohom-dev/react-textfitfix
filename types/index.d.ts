@@ -1,16 +1,12 @@
-declare module "react-textfitfix" {
-  import { ComponentType } from "react";
+import * as React from "react";
 
-  export interface TextfitProps {
-    mode?: "single" | "multi";
-    forceSingleModeWidth?: boolean;
-    min?: number;
-    max?: number;
-    throttle?: number;
-    autoResize?: boolean;
-    onReady?: () => void;
-  }
-
-  export const Textfit: ComponentType<TextfitProps>;
-  export default Textfit;
+export interface TextfitProps extends React.HTMLAttributes<HTMLDivElement> {
+  mode?: "single" | "multi";
+  forceSingleModeWidth?: boolean;
+  min?: number;
+  max?: number;
+  throttle?: number;
+  onReady?: (fontSize: number) => void;
 }
+
+export declare function Textfit(props: TextfitProps): React.JSX.Element;
