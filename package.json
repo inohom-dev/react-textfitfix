@@ -1,8 +1,9 @@
 {
   "name": "react-textfitfix",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fixed version of react-textfit to work with the latest react versions",
   "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "clean": "rimraf lib dist",
     "build": "babel src --out-dir lib",
